@@ -32,6 +32,7 @@ thanks to GEOFF GRAHAM for this fluid-typography
 .navbar-collapse{
   justify-content: flex-end;
 }
+
 .navbar-toggler{
     background:#D3D0CB !important;
 }
