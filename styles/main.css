@@ -1,24 +1,34 @@
-
-/* thanks to GEOFF GRAHAM for this fluid-typography
+/* Added a cheatsheet for setting font-size.
+thanks to GEOFF GRAHAM for this fluid-typography
   font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
-
-
-:body {
-  font-size: calc(14px + (16-14) * (100vw - 320px)/(1920-400));
-}
 
 .navbar{
   background:#000;
 }
+
 .nav-link , .navbar-brand{
-   color: #136F63; cursor: pointer;
+   color: #3dffba; cursor: pointer;
+   font-size:
  }
+
 .nav-link{
   margin-right: 1em !important;}
 
 .nav-link:hover{
-  background: #136F63; color: #22AAA1;
+  background: #8c0020; color: #3dffba;
 }
+
+.header{
+ background-image: url('../media/images/Extraterrestrial_Planet_Landscape.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+/* .nav-link , .navbar-brand:hover{
+    background-color: #22AAA1; color:#136F63; cursor: pointer;
+  }*/
+
 .navbar-collapse{
   justify-content: flex-end;
 }
@@ -31,4 +41,27 @@ background-color:#343a40!important
 }
 .bg-primary{
 background-color:#007bff!important
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#3dffba ;
+ text-shadow: 1px 1px;
+}
+.description p{
+ color:#3dffba;
+ text-shadow: 1px 1px #blue;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #3dffba;
+ background:#3dffba;
+ color:#000;
 }
